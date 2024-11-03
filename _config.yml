@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://dataengineer.ru'
-# baseurl:          '/surfalytics-gitbook'
+#url:              'https://dataengineer.ru'
+baseurl:          '/de-gitbook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
