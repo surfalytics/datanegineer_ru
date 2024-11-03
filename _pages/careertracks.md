@@ -1,5 +1,5 @@
 ---
-title: О сайте 
+title: Треки Вакансий
 author: Дмитрий Аношин
 date: 2024-11-10
 category: Jekyll
