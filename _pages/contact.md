@@ -8,6 +8,3 @@ cover: \assets\surf2.svg
 ---
 
 Всем привет!
-
-
-
