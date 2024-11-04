@@ -3,7 +3,7 @@ title: О сайте
 author: Дмитрий Аношин
 date: 2024-11-10
 category: Jekyll
-layout: post
+layout: page
 cover: \assets\surf2.svg
 ---
 
