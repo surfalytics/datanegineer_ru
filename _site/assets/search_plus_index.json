@@ -1,46 +1,46 @@
-{"/datanegineer_ru/others/careertracks/": {
+{"/dataengineer_ru/others/careertracks/": {
     "title": "Треки Вакансий",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/others/careertracks/",
+    "url": "/dataengineer_ru/others/careertracks/",
     "body": "Аналитик Данных и BI разработчик Уровень 0 Аналитический Инженер Уровень 1 Дата Инженер и ETL разработчик Уровень 2"
-  },"/datanegineer_ru/others/contact/": {
+  },"/dataengineer_ru/others/contact/": {
     "title": "Контакты",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/others/contact/",
+    "url": "/dataengineer_ru/others/contact/",
     "body": "Всем привет!"
-  },"/datanegineer_ru/others/resources/": {
+  },"/dataengineer_ru/others/resources/": {
     "title": "Ресурсы",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/others/resources/",
+    "url": "/dataengineer_ru/others/resources/",
     "body": "Здесь вы найдете полезные ссылки на ресурсы."
-  },"/datanegineer_ru/others/services/": {
+  },"/dataengineer_ru/others/services/": {
     "title": "Услуги",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/others/services/",
+    "url": "/dataengineer_ru/others/services/",
     "body": "Платные сервисы Консультирование компаний Консалтинг Обучение и развитие Тренинги Выступление на конференциях Keynote"
-  },"/datanegineer_ru/pages/contact/": {
+  },"/dataengineer_ru/pages/contact/": {
     "title": "Contact",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/pages/contact/",
+    "url": "/dataengineer_ru/pages/contact/",
     "body": "This is an contact page."
-  },"/datanegineer_ru/pages/design/draft/": {
+  },"/dataengineer_ru/pages/design/draft/": {
     "title": "Design Draft",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/pages/design/draft/",
+    "url": "/dataengineer_ru/pages/design/draft/",
     "body": "This is an draft page."
-  },"/datanegineer_ru/pages/about/": {
+  },"/dataengineer_ru/pages/about/": {
     "title": "About",
     "keywords": "Jekyll",
-    "url": "/datanegineer_ru/pages/about/",
+    "url": "/dataengineer_ru/pages/about/",
     "body": "Мне посчастливилось проработать более 15 лет в аналитике и инжиниринга данных в роле инженера и руководитея. Я начал свою карьеру в области данных в Москве как BI-инженер, работая с традиционными системами Oracle Data Warehouse, Informatica и SAP Business Objects. Позже я присоединился к компании Teradata. Это был очень полезный опыт, который сразу открыл мне доступ к глобальной базе знаний лидеров в сфере хранилищ данных. Позже я заскучал в Москве и решил поработать за границей. Переехал в Черногорию, а затем в Канаду, где присоединился к Amazon и проработал там 5 лет. Я работал в нескольких командах, включая Alexa AI (в Бостоне) и Customer Behaviour Analytics (в Сиэтле). Я участвовал в действительно инновационных проектах, где данные играют ведущую роль. Я стал свидетелем применения Big Data и машинного обучения в масштабах крупнейшей компании в мире. После Amazon я работал 4 года в Microsoft Xbox и Microsoft Azure Data&amp;AI. Я активно участвовал в разработке и внедрении аналитических продуктов Microsoft – Synapse, Fabric и Azure Databricks. Сейчас я помогаю создавать инновационные аналитические решения, строить команды данных и модернизировать устаревшие решения. И, конечно, я обучаю всех, кто интересуется, по всему миру. Недавно я запустил англоязычный сервис Surfalytics (Surf + Analytics), глобальный аналог Data Learn (подробнее о нем ниже). Я написал несколько книг по аналитике: Jumpstart Snowflake: A Step-by-Step Guide to Modern Cloud Analytics Azure Data Factory Cookbook: Build and manage ETL and ELT pipelines with Microsoft Azure’s serverless data integration service Azure Data Factory Cookbook: Data engineers guide to build and manage ETL and ELT pipelines with data integration, 2nd Edition Tableau Desktop Certified Associate: Exam Guide: Develop your Tableau skills and prepare for Tableau certification with tips from industry experts Tableau 2019.x Cookbook: Over 115 recipes to build end-to-end analytical solutions using Tableau Mastering Business Intelligence with MicroStrategy: Master Business Intelligence with Microstrategy 10 Learning Hunk SAP Lumira Essentials С 2021 года я преподаю курс “Основы облачных вычислений” в University of Victoria. У меня большой опыт в развитии сообществ данных и выступлениях на конференциях, митапах и пользовательских группах. Я возглавлял пользовательские группы Snowflake и Tableau в Ванкувере и выступал по всей Северной Америке на местных митапах и крупнейших конференциях по данным. В 2017 году я основал канадскую консалтинговую компанию Rock Your Data с целью помогать компаниям строить аналитические решения и извлекать пользу из данных. В 2019 году я вместе с Романом запустил бесплатный проект Data Learn, где я обучал профессиям Data Engineering и Analytics на основе опыта из моей родной страны. Около 20 000 человек зарегистрировались за 3 года, и многие из них нашли свою первую работу по всему миру. Я благодарен за возможность делиться знаниями, которые помогают менять жизни других людей. С 2018 году я активно веду крупнейши Телеграмм Канал про Аналитику и Инжиниринг Данных. За это время я успел выступить на разныех конференция и поделиться опытом, вот некоторые из них: Как технологии помогают Amazon быть самой клиентоориентированной компанией на Земле? 5 ЛЕТ В АМАЗОН Два типа инженеров данных Примеры реальных аналитических решений и дата-команд в западных компаниях Современные аналитические решения для игровой индустрии Инжиниринг данных в «Майкрософт» Собеседование на BI-аналитика: Дмитрий Аношин Иногда пишу на хабре: Поиск работы за границей и иммиграция в Канаду Нужно ли нам озеро данных? А что делать с хранилищем данных? Amazon, Microsoft, Facebook, Tesla, Lyft — история поиска работы мечты, или «Вредные» советы для карьерного развития Введение в Облачные Вычисления для Всех от Инженера Microsoft, Ex-Amazon Есть ли жизнь после FAANG компании или мой опыт собеседований в Северной Америке, 20+ компаний за 3 недели Все это помогает мне оставаться на переднем крае технологий и следить за тем, куда движется индустрия аналитики. Я основатель консалтинговой компании Rock Your Data в Северной Америке, специализирующейся на современной облачной аналитике."
-  },"/datanegineer_ru/surfalytics/2023-06-04-bi.html": {
+  },"/dataengineer_ru/surfalytics/2023-06-04-bi.html": {
     "title": "Ресурсы по BI инструментам",
     "keywords": "surfalytics",
-    "url": "/datanegineer_ru/surfalytics/2023-06-04-bi.html",
+    "url": "/dataengineer_ru/surfalytics/2023-06-04-bi.html",
     "body": "The first module of the introduction to data engineering consists of 9 videos. During this module, we will get acquainted with the subject of study and learn about key roles in data and what they do, as well as the other names they go by. Most importantly, we will understand how they help businesses become more efficient and earn money. We will delve into typical architectures of analytical solutions and begin with the most basic exercise: analyzing sales data in a spreadsheet. Module 1.1 Introduction This module is aimed at acquiring a theoretical knowledge base for further work with the course, as well as understanding the role of analytics and data engineer in an organization. Before learning to work with the tools, it is very important to understand the business operations principle, how the business uses data, and how they can be beneficial. Typical architectural solutions and job vacancies for the data engineer role will be discussed. Link to video To Be Added (TBA) Module 1.2 The Role of Analytics in an Organization An organization exists to bring some value (value). There are 3 key groups to whom a particular business might be beneficial: Business owners (shareholders); Employees (employees); Customers (customers)."
-  },"/datanegineer_ru/coding/2023-06-04-sql.html": {
+  },"/dataengineer_ru/coding/2023-06-04-sql.html": {
     "title": "Ресурсы по SQL",
     "keywords": "coding",
-    "url": "/datanegineer_ru/coding/2023-06-04-sql.html",
+    "url": "/dataengineer_ru/coding/2023-06-04-sql.html",
     "body": "Тут будет информация."
   }}
