@@ -1,10 +1,9 @@
 ---
-title: Контакты
-author: Дмитрий Аношин
-date: 2024-11-10
+title: Contact
+author: Tao He
+date: 2022-02-05
 category: Jekyll
 layout: post
-cover: \assets\surf2.svg
 ---
 
-Всем привет!
+This is an contact page.

@@ -1,10 +1,10 @@
 ---
 title: Услуги
 author: Дмитрий Аношин
-date: 2024-11-10
+date: 2024-11-03
 category: Jekyll
-layout: page
-cover: \assets\surf2.svg
+layout: post
+#cover: \assets\surf2.svg
 ---
 
 Платные сервисы

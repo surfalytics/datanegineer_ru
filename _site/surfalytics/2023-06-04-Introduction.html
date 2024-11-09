@@ -1,170 +1,235 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Introduction · Surfalytics</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="Surfalytics is your online launchpad into data analytics, offering a comprehensive, hands-on curriculum that focuses on the crucial 20% of knowledge that yields 80% of results, effectively preparing you for a rewarding career globally.
-"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Dmitry Anoshin"><!-- Google Analytics -->
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            window.dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXX');
-    </script>
-    <!-- End Google Analytics -->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Introduction · Инжиниринг Данных</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Портал для Инженеров Данных и Аналитиков.
+"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Дмитрий Аношинн"><link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/style.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/gitbook-plugin-splitter/splitter.css">
 
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/style.css">
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/gitbook-plugin-search-pro/search.css">
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/rouge/colorful.css">
 
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/rouge/colorful.css">
-
-<link rel="stylesheet" href="/de-gitbook/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/dataengineer_ru/assets/gitbook/custom-local.css">
 
 <meta name="HandheldFriendly" content="true"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/de-gitbook/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
-<link rel="shortcut icon" href="/de-gitbook/./assets/favicon2.png" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/dataengineer_ru/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/dataengineer_ru//assets/gitbook/images/favicon.ico" type="image/x-icon">
 
 
 
 
-            <link rel="prev" href="/de-gitbook/" />
+            <link rel="prev" href="/dataengineer_ru/" />
         
 
         
-            <link rel="next" href="/de-gitbook/surfalytics/2023-06-04-Module01.html" />
+            <link rel="next" href="/dataengineer_ru/surfalytics/2023-06-04-Module01.html" />
         
     </head>
     <body>
         <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                let target = $($(element).attr('href'));
+                if (target.length) {
+                    $('div.body-inner').animate({
+                        scrollTop: target.get(0).offsetTop,
+                    });
+                }
+            }
+            return true;
+        }
+    </script>
+
     <nav role="navigation">
         <div id="book-search-input" role="search">
             <input type="text" placeholder="Type to search" />
         </div>
         <div id="book-search-input-link" role="search">
-            <a href="/de-gitbook/assets/search.html">Click to Search</a>
+            <a href="/dataengineer_ru/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">
             
-            <li class="chapter" data-level="1.1" data-path="/de-gitbook">
+            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru">
             
-                <a href="/de-gitbook/">
-                    Surfalytics
+                <a href="/dataengineer_ru/" onclick="pageScrollToTop(this)">
+                    Инжиниринг Данных
                 </a>
+                
+                    
+                
             </li>
 
             <li class="divider"></li>
 
             
-                <!-- <p>pages</p> -->
                 
                     
+                    <!-- <p>posts</p> -->
+                    
+                        
 
-                    
                         
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/pages/about/">
-                        
-                            <a href="/de-gitbook/pages/about/">
-                                О сайте
-                            </a>
                             
-                                
+                            <li class="chapter active" data-level="1.2" data-path="/dataengineer_ru/surfalytics/2023-06-04-Introduction.html">
                             
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/pages/careertracks/">
-                        
-                            <a href="/de-gitbook/pages/careertracks/">
-                                Треки Вакансий
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/pages/contact/">
-                        
-                            <a href="/de-gitbook/pages/contact/">
-                                Контакты
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/pages/resources/">
-                        
-                            <a href="/de-gitbook/pages/resources/">
-                                Ресурсы
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/pages/services/">
-                        
-                            <a href="/de-gitbook/pages/services/">
-                                Услуги
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-
-                    
-                        <li class="divider"></li>
-                    
-                
-            
-                <!-- <p>posts</p> -->
-                
-                    
-
-                    
-                        
-                        <li class="chapter active" data-level="1.2" data-path="/de-gitbook/surfalytics/2023-06-04-Introduction.html">
-                        
-                            <a href="/de-gitbook/surfalytics/2023-06-04-Introduction.html">
-                                Introduction
-                            </a>
-                            
+                                <a href="/dataengineer_ru/surfalytics/2023-06-04-Introduction.html" onclick="pageScrollToTop(this)">
+                                    Introduction
+                                </a>
                                 
                                     
+                                        
 
+                                    
                                 
-                            
-                        </li>
-                    
+                            </li>
                         
-                        <li class="chapter" data-level="1.1" data-path="/de-gitbook/surfalytics/2023-06-04-Module01.html">
-                        
-                            <a href="/de-gitbook/surfalytics/2023-06-04-Module01.html">
-                                Module 01 - The Role of Analytics?
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/surfalytics/2023-06-04-Module01.html">
+                            
+                                <a href="/dataengineer_ru/surfalytics/2023-06-04-Module01.html" onclick="pageScrollToTop(this)">
+                                    Module 01 - The Role of Analytics?
+                                </a>
                                 
-                            
-                        </li>
-                    
+                                    
+                                
+                            </li>
+                        
 
-                    
-                        <li class="divider"></li>
+                        
+                            <li class="divider"></li>
+                        
                     
                 
-            
+                    
+                    <!-- <p>pages</p> -->
+                    
+                        
 
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/pages/about/">
+                            
+                                <a href="/dataengineer_ru/pages/about/" onclick="pageScrollToTop(this)">
+                                    About
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/pages/contact/">
+                            
+                                <a href="/dataengineer_ru/pages/contact/" onclick="pageScrollToTop(this)">
+                                    Contact
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/pages/design/draft/">
+                            
+                                <a href="/dataengineer_ru/pages/design/draft/" onclick="pageScrollToTop(this)">
+                                    Design Draft
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+
+                        
+                            <li class="divider"></li>
+                        
+                    
+                
+                    
+                    <!-- <p>others</p> -->
+                    
+                        
+
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/others/about/">
+                            
+                                <a href="/dataengineer_ru/others/about/" onclick="pageScrollToTop(this)">
+                                    О сайте
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/others/careertracks/">
+                            
+                                <a href="/dataengineer_ru/others/careertracks/" onclick="pageScrollToTop(this)">
+                                    Треки Вакансий
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/others/contact/">
+                            
+                                <a href="/dataengineer_ru/others/contact/" onclick="pageScrollToTop(this)">
+                                    Контакты
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/others/resources/">
+                            
+                                <a href="/dataengineer_ru/others/resources/" onclick="pageScrollToTop(this)">
+                                    Ресурсы
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/dataengineer_ru/others/services/">
+                            
+                                <a href="/dataengineer_ru/others/services/" onclick="pageScrollToTop(this)">
+                                    Услуги
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+
+                        
+                            <li class="divider"></li>
+                        
+                    
+                
             
         </ul>
     </nav>
@@ -212,8 +277,9 @@
     </div>
 </div>
 
+<!-- introduce mathjax support -->
 <script>
-MathJax = {
+window.MathJax = {
   tex: {
     inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
   },
@@ -227,13 +293,40 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
-                        <a href="/de-gitbook/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Surfalytics">
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/dataengineer_ru/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Инжиниринг Данных">
                             <i class="fa fa-angle-left"></i>
                         </a>
                     
 
                     
-                        <a href="/de-gitbook/surfalytics/2023-06-04-Module01.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Module 01 - The Role of Analytics?">
+                        <a href="/dataengineer_ru/surfalytics/2023-06-04-Module01.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Module 01 - The Role of Analytics?">
                             <i class="fa fa-angle-right"></i>
                         </a>
                     
@@ -270,6 +363,9 @@ MathJax = {
             "website": "styles/website.css"
         },
         "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
@@ -282,17 +378,28 @@ MathJax = {
                 "maxIndexSize": 1000000
             },
             "search": {},            "sharing": {
-                "facebook": false,
+                "facebook": true,
+
                 "google": false,
+
                 "github": true,
-                "github_link": "https://github.com/surfalytics/",
+              
+                "github_link": "https://github.com",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
                 "instapaper": false,
-                "twitter": false,
+
+                "twitter": true,
+              
+
                 "vk": false,
-                "linkedin": true,
-                "linkedin_link": "https://linkedin.com/company/surfalytics/",
-                "telegram": true,
-                "telegram_link": "https://t.me/surfalytics"
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
             },
 "theme-default": {
                 "showLevel": false,
@@ -304,7 +411,7 @@ MathJax = {
                     "print": "styles/print.css",
                     "website": "styles/website.css"
                 }
-            }
+            },
         },
         "theme": "default",
         "author": "Tao He",
@@ -327,7 +434,7 @@ MathJax = {
             "readme": "README.md",
         },
         "variables": {},
-        "title": "Surfalytics",
+        "title": "Инжиниринг Данных",
         "language": "en",
         "gitbook": "*"
     },
@@ -338,30 +445,36 @@ MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-11-03 21:34:19 -0800"
+        "time": "2024-11-08 18:13:33 -0800"
     },
-    "basePath": "/de-gitbook",
+    "basePath": "/dataengineer_ru",
     "book": {
         "language": ""
     }
 });
             });
             </script>
-        </div><script src="/de-gitbook/assets/gitbook/gitbook.js"></script>
-<script src="/de-gitbook/assets/gitbook/theme.js"></script>
+        </div><script src="/dataengineer_ru/assets/gitbook/gitbook.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/theme.js"></script>
 
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
 
-<!-- <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
 <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
 <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search.js"></script> -->
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
 
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-<script src="/de-gitbook/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/custom.js"></script>
+<script src="/dataengineer_ru/assets/gitbook/custom-local.js"></script>
 
 </body>
 </html>

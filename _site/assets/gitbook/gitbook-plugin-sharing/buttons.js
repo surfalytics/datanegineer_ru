@@ -26,10 +26,10 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         },
         'telegram': {
             'label': 'Telegram',
-            'icon': 'fa fa-paper-plane',
+            'icon': 'fa fa-telegram',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('https://t.me/surfalytics');
+                window.open('https://t.me');
             }
         },
         'google': {
@@ -56,14 +56,14 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 window.open('http://www.instapaper.com/text?u='+encodeURIComponent(location.href));
             }
         },
-        'linkedin': {
-            'label': 'LinkedIn',
-            'icon': 'fa fa-linkedin',
+        'vk': {
+            'label': 'VK',
+            'icon': 'fa fa-vk',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('https://www.linkedin.com/company/surfalytics/');
+                window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
             }
-        },
+        }
     };
 
 
@@ -96,17 +96,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             if (!opts[sideId]) return;
 
             var onClick = site.onClick;
-
-            if (sideId === "github" && opts["github_link"] !== undefined && opts["github_link"] !== "") {
+            
+            // override target link with provided link
+            var side_link = opts[`${sideId}_link`]
+            if (side_link !== undefined && side_link !== "") {
                 onClick = function(e) {
                     e.preventDefault();
-                    window.open(opts["github_link"]);
-                }
-            }
-            if (sideId === "telegram" && opts["telegram_link"] !== undefined && opts["telegram_link"] !== "") {
-                onClick = function(e) {
-                    e.preventDefault();
-                    window.open(opts["telegram_link"]);
+                    window.open(side_link);
                 }
             }
 

@@ -1,13 +1,28 @@
             "sharing": {
-                "facebook": false,
+                "facebook": true,
+
                 "google": false,
+
                 "github": true,
-                "github_link": "https://github.com/surfalytics/",
+              {% if site.github_username %}
+                "github_link": "https://github.com/{{ site.github_username }}",
+              {% else %}
+                "github_link": "https://github.com",
+              {% endif %}
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
                 "instapaper": false,
-                "twitter": false,
+
+                "twitter": true,
+              {% if site.twitter_username %}
+                "twitter_link": "https://twitter.com/{{ site.twitter_username }}",
+              {% endif %}
+
                 "vk": false,
-                "linkedin": true,
-                "linkedin_link": "https://linkedin.com/company/surfalytics/",
-                "telegram": true,
-                "telegram_link": "https://t.me/surfalytics"
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
             },
