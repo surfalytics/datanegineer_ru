@@ -2,7 +2,7 @@
 layout: home
 title: Инжиниринг Данных
 permalink: /
-cover: \assets\Surfalytics.svg
+cover: ./assets/Surfalytics.svg
 ---
 
 ⚠️ Сайт в разработке ⚠️
