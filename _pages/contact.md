@@ -1,9 +1,9 @@
 ---
-title: Contact
-author: Tao He
+title: Дата Сообщества
+author: Дмитрий Аношин
 date: 2022-02-05
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+Здесь будут Телеграмм Каналы
