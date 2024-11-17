@@ -1,5 +1,5 @@
 ---
-title: About 
+title: Про Основателя
 author: Дмитрий Аношин
 date: 2024-11-03
 category: Jekyll
