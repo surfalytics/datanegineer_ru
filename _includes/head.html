@@ -20,6 +20,16 @@
     <meta name="author" content="{{ site.author | escape }}">
 {%- endif -%}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WWHHQZ07HV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WWHHQZ07HV');
+</script>
+
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
