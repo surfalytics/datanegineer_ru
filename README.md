@@ -97,10 +97,9 @@ cover: ./assets/surf2.svg
 
 > Amazon: Data Engineers tackle some of the most complex challenges in large-scale computing. Most of the work they do involves storing and providing access to data in efficient ways.
 
-А теперь просуммируем всю информацию выше и запише определение Инженера Данных:
+А теперь просуммируем всю информацию выше и запише определение:
 
 Инжиниринг Данных делает данные полезными и доступными для конечных потребителей, создавая безопасную и масштабируемую инфраструктуру.
-
 
 
 ## Учебные материалы
