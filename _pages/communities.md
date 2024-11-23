@@ -1,6 +1,6 @@
 ---
 title: Дата Сообщества
-author: Дмитрий Аношин
+author: Дата Инженеръ
 date: 2022-02-05
 category: Jekyll
 layout: post

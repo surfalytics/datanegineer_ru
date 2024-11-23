@@ -1,8 +1,8 @@
 ---
 title: Облачные вычисления
-author: Дмитрий Аношин
+author: Дата Инженеръ
 date: 2024-11-22
-category: surfalytics
+category: hard-skills
 layout: post
 cover: ../assets/surf2.svg
 ---
