@@ -2,3 +2,4 @@ _site
 _draft/
 .jekyll-cache/
 .DS_Store
+.idea/
