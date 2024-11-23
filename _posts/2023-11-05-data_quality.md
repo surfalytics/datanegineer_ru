@@ -1,5 +1,5 @@
 ---
-title: Ресурсы про Качество Данных
+title: Качество Данных
 author: Дмитрий Аношин
 date: 2023-06-04
 category: surfalytics
