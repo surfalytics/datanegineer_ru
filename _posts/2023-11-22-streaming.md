@@ -1,7 +1,7 @@
 ---
 title: Ресурсы по Apache Spark
 author: Дмитрий Аношин
-date: 2023-06-04
+date: 2024-11-22
 category: surfalytics
 layout: post
 cover: ../assets/surf2.svg

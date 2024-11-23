@@ -1,5 +1,5 @@
 ---
-title: Ресурсы по Streaming
+title: Ресурсы про Качество Данных
 author: Дмитрий Аношин
 date: 2023-06-04
 category: surfalytics
@@ -7,4 +7,4 @@ layout: post
 cover: ../assets/surf2.svg
 ---
 
-Здесь мы соберем самые знаменитые White Papers.
+Все про Data Goverance и Data Quality.

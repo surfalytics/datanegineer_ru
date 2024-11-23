@@ -1,5 +1,5 @@
 ---
-title: Контрибъютеры
+title: Контрибьюторы
 author: Дмитрий Аношин
 date: 2024-11-03
 category: Jekyll
