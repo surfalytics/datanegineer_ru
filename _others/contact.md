@@ -11,5 +11,6 @@ cover: ../../assets/surf2.svg
 
 - [Дмитрий Аношин](https://www.linkedin.com/in/dmitryanoshin/)
 - [Даниил Джепаров](https://t.me/daniildzheparov)
+- [Владимир Герингер](https://t.me/geringervv)
 
 
