@@ -1,8 +1,8 @@
 ---
 title: Качество Данных
-author: Дмитрий Аношин
+author: Дата Инженеръ
 date: 2023-06-04
-category: surfalytics
+category: hard-skills
 layout: post
 cover: ../assets/surf2.svg
 ---
