@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: dataengineer-ru-dev:latest
+    container_name: dataengineer-ru-dev
+    ports:
+      - "4000:4000"
+    environment:
+      - JEKYLL_ENV=development
+    command: ["bash", "/app/entrypoint.sh"]
+    volumes:
+      - ./_includes:/app/_includes
+      - ./_layouts:/app/_layouts
+      - ./_others:/app/_others
+      - ./_pages:/app/_pages
+      - ./_posts:/app/_posts
+      - ./_config.yml:/app/_config.yml
+      - ./assets:/app/assets
+      - ./404.html:/app/404.html
+      - ./README.md:/app/README.md

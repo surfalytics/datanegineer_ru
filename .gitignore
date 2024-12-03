@@ -3,3 +3,8 @@ _draft/
 .jekyll-cache/
 .DS_Store
 .idea/
+.bundle
+vendor
+.env
+.venv
+venv
