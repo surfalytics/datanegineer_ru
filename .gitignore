@@ -3,3 +3,14 @@ _draft/
 .jekyll-cache/
 .DS_Store
 .idea/
+.bundle
+vendor
+.env
+.venv
+venv
+Dockerfile.dev
+docker-compose.dev.yml
+Makefile
+SETUP.md
+entrypoint.sh
+.dockerignore
